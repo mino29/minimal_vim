@@ -607,7 +607,8 @@ function! MyHighlights() abort
     hi SignColumn guifg=#C0CAF5 guibg=NONE gui=NONE
     hi VertSplit guifg=#9BF6FF guibg=NONE gui=NONE
 
-    hi ColorColumn guifg=NONE ctermbg=235 gui=NONE
+    "hi ColorColumn guifg=NONE ctermbg=235 gui=NONE
+    hi ColorColumn ctermfg=NONE ctermbg=235 cterm=NONE
     hi CursorLine ctermfg=NONE ctermbg=235 cterm=NONE
     hi Comment ctermfg=239 guibg=NONE gui=italic
     hi Error guifg=#FF8080 guibg=#1F262D gui=bold,reverse
